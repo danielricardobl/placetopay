@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PlacetoPay</title>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/form-elements.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+   
+     <body>
+        <div class="top-content">
+            <div class="container">
+                 <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 logo">
+                       <img class="logo" src="assets/img/logo.png">
+                    </div>
+                 </div>
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 form-box">
+                    	<form role="form" action="" method="post" class="f1">
+                   		  <div class="f1-steps">
+                    			<div class="f1-progress">
+                    			    <div class="f1-progress-line" data-number-of-steps="3" style=" width: 120%;"></div>
+                    			</div>
+                    			<div class="f1-step active">
+                    				<div class="f1-step-icon"><i class="fa fa-user"></i></div>
+                    				<p>Resumen</p>
+                    			</div>
+                    			<div class="f1-step">
+                    				<div class="f1-step-icon"><i class="fa fa-credit-card"></i></div>
+                    				<p>Pago</p>
+                    			</div>
+                    		    <div class="f1-step">
+                    				<div class="f1-step-icon"><i class="fa fa-money"></i></div>
+                    				<p>Confirmar</p>
+                    			</div>
+                    		</div>
+                    		
+                   		  <fieldset>
+                               <div class="panel panel-default">
+  								<div class="panel-heading">Resumen de pago</div>
+  									<table class="table table-condensed">
+    									<tbody>
+     									 <tr>
+       								 	   <td>Número de referencia:</td>
+        							       <td>4855545FDE</td>
+     									 </tr>
+                                         <tr>
+                                          <td>Valor a pagar total:</td>
+                                          <td>COP 15.000,00</td>
+                                         </tr>
+                                         <tr>
+                                          <td>Descripción del pago:</td>
+                                          <td>Pago factura agua</td>
+                                        </tr>
+                                       </tbody>
+                                        </table>
+ 								</div> 
+                                    <div class="f1-buttons">
+                                    <button type="button" class="btn btn-next">Pagar Ahora</button>
+                                </div>
+                           
+                             </fieldset>
+
+                            <fieldset>
+                                <h4>Selecciona un método de pago:</h4>
+         
+
+
+
+            <div class="panel with-nav-tabs panel-success ">
+                <div class="panelcolor">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1success" data-toggle="tab">Tarjeta de crédito</a></li>
+                            <li><a href="#tab2success" data-toggle="tab">Ahorros o corriente</a></li>
+                            <li><a href="#tab3success" data-toggle="tab">Pago en efectivo</a></li>
+                        </ul>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1success">
+                                  <div class="bancos"><img src="assets/img/tarjetas-credito.png"></div> 
+                                   <div class="form-group">
+                                  <input placeholder="Numero de tarjeta" class="form-control">
+                                </div>	
+                                   <div class="form-group short"> 
+                                    <input placeholder="Fecha de vencimiento" class="form-control">   
+                                </div>
+                                
+                                <div class="form-group short2">
+                                  <input placeholder="CVV" class="form-control" >
+                                </div>
+                              
+                                
+                                </div>
+                        <div class="tab-pane fade" id="tab2success">
+                        	  <div class="bancos"><img src="assets/img/PSE.png"></div> 
+                        	     <div class="form-group">
+                                  <select class="form-control">
+                                    <option>Tipo de Persona</option>
+                                    <option>Persona Natural</option>
+                                    <option>Persona Jurídica</option>
+                                  </select>
+                               </div>     
+                        <div class="form-group">
+                              <select class="form-control">
+  								<option>Selecciona Tu Banco</option>
+  								<option>Bancolombia</option>
+  								<option>Banco de Bogota</option>
+ 							    <option>Davivienda</option>
+							 </select>
+                        </div>     
+ 
+                              
+                        	
+                        </div>
+                        <div class="tab-pane fade" id="tab3success">Pago en efectivo</div>
+                    </div>
+                </div>
+            </div>
+
+
+                                 <h4>Escribe tus datos personales:</h4>
+                                <div class="form-group short"> 
+                                    <input type="text" placeholder="Nombres" class="form-control">   
+                                </div>
+                                
+                                <div class="form-group short2">
+                                  <input type="text" placeholder="Apellidos" class="form-control">
+                                </div>
+                              
+                                <div class="form-group">
+                                  <input type= "tel" placeholder="Telefono" class="form-control">
+                                </div>
+                               
+                                 <div class="form-group">
+                                    <input type= "text" placeholder="Correo Electronico" class="form-control">
+                                </div>
+                                
+                                   <div class="form-group">
+                                    <input type="text" placeholder="Documento de Identidad" class="form-control">
+                                </div>
+                               <div class="form-group">
+                                  <select class="form-control drop">
+ 									<option>Cedula de ciudadania</option>
+  									<option>Cedula de extranjero</option>
+
+							     </select>
+      							</div>                               
+                                    <div class="f1-buttons ">
+                                    <button type="button" class="btn btn-next bt2">Pagar Ahora</button>
+                                </div>
+                            </fieldset>
+
+                            <fieldset>
+                         <h2 class="titulo">Lo Sentimos Algo salio mal :(</h2>    
+                     <div class="panel panel-default">
+  								<div class="panelwrong">Transaccion Rechazada - El metodo de pago es invalido</div>
+  									<table class="table table-condensed">
+    									<tbody>
+     									 <tr>
+       								 	   <td>Razón social:</td>
+        							       <td>Compañía S.A.S</td>
+     									 </tr>
+                                         <tr>
+                                          <td>Nit:</td>
+                                          <td>92.623.325-01</td>
+                                         </tr>
+                                         <tr>
+                                          <td>Descripción del pago:</td>
+                                          <td>Pago Factura Agua</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Valor:</td>
+                                          <td>COP 14.800,00</td>
+                                        </tr>
+                                         <tr>
+                                          <td>IVA:</td>
+                                          <td>COP 200,00</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Forma de pago:</td>
+                                          <td>Tarjeta de crédito</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Franquicia:</td>
+                                          <td>MasterCard</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Referencia:</td>
+                                          <td>15161151FS</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Recibo:</td>
+                                          <td>000151</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Descripción:</td>
+                                          <td>Pago Factura Agua</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cliente:</td>
+                                          <td>Juan Cardona</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Correo electrónico:</td>
+                                          <td>Juancardona@gmail.com</td>
+                                        </tr>
+                                       </tbody>
+                                        </table>
+ 								</div>
+                                
+                               <h2 class="tituloinf">Si continua teniendo problemas con el pago contáctenos al teléfono 315 45 78 o escríbenos a pagos@empresa.com</h>
+                            </fieldset>
+                    	</form>
+                    </div>
+                </div>        
+            </div>
+        </div>
+
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+
+    </body>
+
+</html>
